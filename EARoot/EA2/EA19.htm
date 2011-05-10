@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>recuperar senha por email</title>
+<title>Cadastrando</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {
@@ -16,15 +16,15 @@ function initPage(src) {
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">recuperar senha por email  : public   usecase</span>
+	<span class="ObjectTitle">Cadastrando  : public   state</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">14/03/2011 13:35:12</td>
+			<td width="85%" class="ObjectDetailsValue">09/05/2011 21:54:09</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">19/03/2011 13:00:01</td>
+			<td class="ObjectDetailsValue">09/05/2011 21:54:12</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -57,59 +57,65 @@ function initPage(src) {
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{E005E66C-24BF-403b-BF0F-769E5A06D943}</td>
+			<td class="ObjectDetailsValue">{5C3F1432-68F1-4c21-BB84-BA489C77F2FD}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA9.htm">Use Case Model</a></td>
+			<td class="ObjectDetailsValue"><a href="EA11.htm">diagrama de estado - Cadastro </a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
-			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 		</ul>
-		<div class="ItemBody" id="ScenarioTable">
-			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<div class="ItemBody" id="FlowToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="90%" class="TableHeading">Scenario</td>
-					<td width="10%" class="TableHeading">Type</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="90%" class="TableRow">Basic Path</td>
-					<td width="10%" class="TableRow">Basic Path</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA18.htm">Cadastrado</a><br />
+						State &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario33" onclick="parent.toggleDiv('detailsDIVScenario33','DetailsImageScenario33')" />Details:
-							<div id="detailsDIVScenario33" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">1 - Selecionar botão &quot;Esqueci senha&quot;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;2 - Informar o e-mail&lt;br /&gt;&lt;/p&gt;&lt;p&gt;3 - Confirmar&lt;br /&gt;&lt;/p&gt;&lt;p&gt;4 - Aguardar o envio de uma nova senha no e-mail&lt;br /&gt;&lt;/p&gt;</div>
-
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow44" onclick="parent.toggleDiv('detailsDIVLinkFlow44', 'DetailsImageLinkFlow44')" />Details:
+							<div id="detailsDIVLinkFlow44" class="DetailsDiv" >
+							&nbsp;
 							</div>
 						</div>
-						
-						
 					</td>
 				</tr>
-
 			</table>
 		</div>
-		<div class="ItemBody" id="LinksTable">
-			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<div class="ItemBody" id="FlowFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="30%" class="TableHeading">Object</td>
-					<td width="15%" class="TableHeading">Type</td>
-					<td width="15%" class="TableHeading">Connection</td>
-					<td width="40%" class="TableHeading">Notes</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA16.htm">logar no sistema</a></td>
-					<td width="15%" class="TableRow" valign="top">UseCase</td>
-					<td width="15%" class="TableRow" valign="top">Extends</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA27.htm">Início</a><br />
+						StateNode &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
-
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow45" onclick="parent.toggleDiv('detailsDIVLinkFlow45', 'DetailsImageLinkFlow45')" />Details:
+							<div id="detailsDIVLinkFlow45" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
 			</table>
 		</div>
 	</div>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>logar no sistema</title>
+<title>Alterar Senha</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {
@@ -16,15 +16,15 @@ function initPage(src) {
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">logar no sistema  : public   usecase</span>
+	<span class="ObjectTitle">Alterar Senha  : public   state</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">14/03/2011 13:34:36</td>
+			<td width="85%" class="ObjectDetailsValue">09/05/2011 21:45:07</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">19/03/2011 12:24:57</td>
+			<td class="ObjectDetailsValue">09/05/2011 21:45:16</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -57,93 +57,65 @@ function initPage(src) {
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{E8D7B28A-A1B7-4a2f-87A9-F5BB3C897EDC}</td>
+			<td class="ObjectDetailsValue">{5CA0A28E-A0F3-4b55-A793-F40C2E574A15}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA9.htm">Use Case Model</a></td>
+			<td class="ObjectDetailsValue"><a href="EA13.htm">diagrama de estado - Login</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
-			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 		</ul>
-		<div class="ItemBody" id="ScenarioTable">
-			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<div class="ItemBody" id="FlowToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="90%" class="TableHeading">Scenario</td>
-					<td width="10%" class="TableHeading">Type</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="90%" class="TableRow">Login</td>
-					<td width="10%" class="TableRow">Basic Path</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA28.htm">Logado</a><br />
+						State &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario27" onclick="parent.toggleDiv('detailsDIVScenario27','DetailsImageScenario27')" />Details:
-							<div id="detailsDIVScenario27" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">1 - Inserir login&lt;br /&gt;&lt;/p&gt;&lt;p&gt;2 - Inserir senha&lt;br /&gt;&lt;/p&gt;&lt;p&gt;3 - Confirmar&lt;br /&gt;&lt;/p&gt;</div>
-
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow28" onclick="parent.toggleDiv('detailsDIVLinkFlow28', 'DetailsImageLinkFlow28')" />Details:
+							<div id="detailsDIVLinkFlow28" class="DetailsDiv" >
+							&nbsp;
 							</div>
 						</div>
-						
-						
 					</td>
 				</tr>
-				<tr>
-					<td width="90%" class="TableRow">Usuário nao cadastrado</td>
-					<td width="10%" class="TableRow">Exception</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario28" onclick="parent.toggleDiv('detailsDIVScenario28','DetailsImageScenario28')" />Details:
-							<div id="detailsDIVScenario28" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">&lt;ol&gt;&lt;li&gt;Usuário tenta logar no sistema&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;Sistema informa o usuário que não está cadastrado&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;Redireciona o usuário para a página de Cadastro&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ol&gt;&lt;br /&gt;&lt;/p&gt;</div>
-
-							</div>
-						</div>
-						
-						
-					</td>
-				</tr>
-
 			</table>
 		</div>
-		<div class="ItemBody" id="LinksTable">
-			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<div class="ItemBody" id="FlowFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="30%" class="TableHeading">Object</td>
-					<td width="15%" class="TableHeading">Type</td>
-					<td width="15%" class="TableHeading">Connection</td>
-					<td width="40%" class="TableHeading">Notes</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA13.htm">bloquear após n tentativas</a></td>
-					<td width="15%" class="TableRow" valign="top">UseCase</td>
-					<td width="15%" class="TableRow" valign="top">Extends</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA28.htm">Logado</a><br />
+						State &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA17.htm">modificar cadastro</a></td>
-					<td width="15%" class="TableRow" valign="top">UseCase</td>
-					<td width="15%" class="TableRow" valign="top">Includes</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow29" onclick="parent.toggleDiv('detailsDIVLinkFlow29', 'DetailsImageLinkFlow29')" />Details:
+							<div id="detailsDIVLinkFlow29" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
 				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA12.htm">alterar senha</a></td>
-					<td width="15%" class="TableRow" valign="top">UseCase</td>
-					<td width="15%" class="TableRow" valign="top">Includes</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA19.htm">recuperar senha por email</a></td>
-					<td width="15%" class="TableRow" valign="top">UseCase</td>
-					<td width="15%" class="TableRow" valign="top">Extends</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-
 			</table>
 		</div>
 	</div>

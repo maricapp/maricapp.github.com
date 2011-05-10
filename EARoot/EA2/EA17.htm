@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>modificar cadastro</title>
+<title>Bloqueado</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {
@@ -16,15 +16,15 @@ function initPage(src) {
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">modificar cadastro  : public   usecase</span>
+	<span class="ObjectTitle">Bloqueado  : public   state</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">14/03/2011 13:34:06</td>
+			<td width="85%" class="ObjectDetailsValue">09/05/2011 21:48:39</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">19/03/2011 13:01:24</td>
+			<td class="ObjectDetailsValue">09/05/2011 21:48:45</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -57,109 +57,65 @@ function initPage(src) {
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{69D95B1D-7BAB-458a-B60B-71327F99AB74}</td>
+			<td class="ObjectDetailsValue">{58055D58-EB0A-452f-AD38-1C841F21A446}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA9.htm">Use Case Model</a></td>
+			<td class="ObjectDetailsValue"><a href="EA13.htm">diagrama de estado - Login</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
-			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
-			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 		</ul>
-		<div class="ItemBody" id="AssociationsFromTable">
+		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA20.htm">Usuário</a><br />
-						Actor &nbsp;
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA21.htm">Final</a><br />
+						StateNode &nbsp;
 					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink30" onclick="parent.toggleDiv('detailsDIVLink30','DetailsImageLink30')" />Details:
-							<div id="detailsDIVLink30" class="DetailsDiv" >
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow32" onclick="parent.toggleDiv('detailsDIVLinkFlow32', 'DetailsImageLinkFlow32')" />Details:
+							<div id="detailsDIVLinkFlow32" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-
 			</table>
 		</div>
-		<div class="ItemBody" id="ScenarioTable">
-			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<div class="ItemBody" id="FlowFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="90%" class="TableHeading">Scenario</td>
-					<td width="10%" class="TableHeading">Type</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="90%" class="TableRow">Alteração Básica</td>
-					<td width="10%" class="TableRow">Basic Path</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA29.htm">Logando</a><br />
+						State &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario31" onclick="parent.toggleDiv('detailsDIVScenario31','DetailsImageScenario31')" />Details:
-							<div id="detailsDIVScenario31" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">1 - Alterar dados cadastrais permitidos do usuário&lt;br /&gt;&lt;/p&gt;&lt;p&gt;2 - Salvar&lt;br /&gt;&lt;/p&gt;</div>
-
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow33" onclick="parent.toggleDiv('detailsDIVLinkFlow33', 'DetailsImageLinkFlow33')" />Details:
+							<div id="detailsDIVLinkFlow33" class="DetailsDiv" >
+							&nbsp;
 							</div>
 						</div>
-						
-						
 					</td>
 				</tr>
-				<tr>
-					<td width="90%" class="TableRow">alteração avançada</td>
-					<td width="10%" class="TableRow">Alternate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario32" onclick="parent.toggleDiv('detailsDIVScenario32','DetailsImageScenario32')" />Details:
-							<div id="detailsDIVScenario32" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">1 -&#160; Alterar campo não permitido.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;2 - Enviar alteração de cadastro para área de suporte&lt;br /&gt;&lt;/p&gt;&lt;p&gt;3 - liberação da alteração de cadastro do usuário, caso dados estejam corretos&lt;br /&gt;&lt;/p&gt;&lt;p&gt;4 - confirma a alteração de dados pelo e-mail&lt;br /&gt;&lt;/p&gt;</div>
-
-							</div>
-						</div>
-						
-						
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="LinksTable">
-			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="30%" class="TableHeading">Object</td>
-					<td width="15%" class="TableHeading">Type</td>
-					<td width="15%" class="TableHeading">Connection</td>
-					<td width="40%" class="TableHeading">Notes</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA16.htm">logar no sistema</a></td>
-					<td width="15%" class="TableRow" valign="top">UseCase</td>
-					<td width="15%" class="TableRow" valign="top">Includes</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-
 			</table>
 		</div>
 	</div>
